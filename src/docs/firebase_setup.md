@@ -4,7 +4,7 @@
 2. Create "web" app within firebase to get config values"
 3. Install firebase in your project "npm i firebase
 4. Create a config file in your project
-5. Enable authentication for email/password and Google
+5. Add authentication for email/password and Google
 6. Create a user from Firebase
 7. Enable Firestore
 8. Add [rules](https://gist.github.com/bradtraversy/6d7de7e877d169a6aa4e61140d25767f) for firestore
