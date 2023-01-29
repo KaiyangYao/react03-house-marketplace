@@ -95,9 +95,6 @@ function CreateListing() {
       );
 
       const data = await response.json();
-      console.log(response);
-      console.log(data);
-      console.log(process.env.GEOCODE_API_KEY);
 
       geolocation.lat = data.results[0]?.geometry.location.lat ?? 0;
       geolocation.lng = data.results[0]?.geometry.location.lng ?? 0;
